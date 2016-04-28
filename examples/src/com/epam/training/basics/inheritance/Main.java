@@ -1,4 +1,4 @@
-package com.epam.training.examples.inheritance;
+package com.epam.training.basics.inheritance;
 
 /**
  * The executable class to present inheritance.

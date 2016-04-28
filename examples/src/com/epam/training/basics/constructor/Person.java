@@ -1,4 +1,4 @@
-package com.epam.training.examples.constructor;
+package com.epam.training.basics.constructor;
 
 public class Person {
 

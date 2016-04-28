@@ -1,4 +1,4 @@
-package com.epam.training.examples;
+package com.epam.training.basics;
 
 import java.util.ArrayList;
 import java.util.HashMap;
