@@ -1,16 +1,16 @@
 ## Outline
 
-##### CalculatorTest1:
+##### BasicJunitTest:
   * Structure of a test
   * Packaging
   * Naming conventions
   * @Test annotation
   * org.junit.Assert
 
-##### CalculatorTest2:
+##### MoreTestsInOneSuite:
   * Happy case, negative flow
   * expecting Exception
   * More tests in one test class
 
-##### CalculatorTest3:
+##### SetupAndTeardownMethodsInTest:
   * @Before, @After
