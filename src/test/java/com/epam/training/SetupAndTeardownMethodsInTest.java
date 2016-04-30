@@ -1,3 +1,5 @@
+package com.epam.training;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -7,54 +9,44 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * .
+ * Illustrates the execution order of JUnit Before*, After* and Test methods.
  *
  * @author Jozsef_Koza
+ * @author Gabor_Nemeth1
  */
 public class SetupAndTeardownMethodsInTest {
     private static final Logger LOG = LoggerFactory.getLogger(SetupAndTeardownMethodsInTest.class);
 
-    private Calculator calculator = new Calculator();
-    private int sum = 0;
-
     @BeforeClass
     public static void setUpClass() {
-        log("Called setUpClass");
+        LOG.info("Called setUpClass");
         //TODO e.g. start selenium server
+
     }
 
     @AfterClass
     public static void tearDownClass() {
-        log("Called tearDownClass");
+        LOG.info("Called tearDownClass");
         // TODO kill selenium server
-    }
-
-    private static void log(String msg) {
-        LOG.info(msg);
     }
 
     @Before
     public void setUp() {
-        increment(2);
-    }
-
-    @Test
-    public void shouldTestSomething() throws Exception {
-        increment(3);
-    }
-
-    @Test
-    public void shouldTestSomethingElse() throws Exception {
-        increment(3);
+        LOG.info("{} called setUp", this);
     }
 
     @After
     public void tearDown() {
-
+        LOG.info("{} called tearDown", this);
     }
 
-    private void increment(int n) {
-        sum = calculator.add(sum, n);
-        LOG.info("Sum: {}", sum);
+    @Test
+    public void shouldTestSomething() throws Exception {
+        LOG.info("{} called shouldTestSomething", this);
+    }
+
+    @Test
+    public void shouldTestSomethingElse() throws Exception {
+        LOG.info("{} called shouldTestSomethingElse", this);
     }
 }

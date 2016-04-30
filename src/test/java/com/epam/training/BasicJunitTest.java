@@ -1,3 +1,5 @@
+package com.epam.training;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -5,6 +7,7 @@ import org.junit.Test;
  * Unit test for {@link Calculator}.
  *
  * @author Jozsef_Koza
+ * @author Gabor_Nemeth1
  */
 public class BasicJunitTest {
 

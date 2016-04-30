@@ -1,13 +1,16 @@
+package com.epam.training;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 /**
- * .
+ * Illustrates that a class can contain more than one test method.
  *
  * @author Jozsef_Koza
+ * @author Gabor_Nemeth1
  */
-public class CalculatorTest2 {
+public class MoreTestsInOneSuite {
 
     private Calculator calculator = new Calculator();
 

@@ -1,5 +1,7 @@
+package com.epam.training;
+
 /**
- * .
+ * The simplest calculator ever.
  *
  * @author Jozsef_Koza
  */
