@@ -17,6 +17,13 @@ public final class Wrapper<T> {
         this.value = value;
     }
 
+    /**
+     * Wraps the argument value in a new instance of {@link Wrapper}.
+     *
+     * @param value the value to wrap
+     * @param <T>   the type of the wrapped argument
+     * @return the wrapped value
+     */
     public static <T> Wrapper<T> of(T value) {
         return new Wrapper<>(value);
     }
