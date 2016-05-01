@@ -36,4 +36,37 @@ public class DefaultAdvancedCalculator implements AdvancedCalculator {
     public double power(double base, double exponent) {
         return Math.pow(base, exponent);
     }
+
+    /**
+     * A pair representing a Fibonacci-number with the previous number in the sequence.
+     *
+     * @author Jozsef_Koza
+     */
+    private static final class FibonacciNumber {
+        private final int previous;
+        private final int value;
+
+        FibonacciNumber(int previous, int value) {
+            this.previous = previous;
+            this.value = value;
+        }
+
+        /**
+         * Returns the value of the Fibonacci number.
+         *
+         * @return the value
+         */
+        int get() {
+            return value;
+        }
+
+        /**
+         * Returns the next number in the Fibonacci-sequence
+         *
+         * @return the next value
+         */
+        int computeNext() {
+            return previous + value;
+        }
+    }
 }
