@@ -2,7 +2,6 @@ package com.epam.training;
 
 import java.util.Arrays;
 
-import org.hamcrest.MatcherAssert;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,7 +25,7 @@ public class ParameterizedTest {
     @Parameter(2)
     public int sum;
 
-    private Calculator calculator = new Calculator();
+    private DumbCalculator dumbCalculator = new DumbCalculator();
 
     @Parameters
     public static Iterable<Object[]> parameters() {
@@ -40,6 +39,6 @@ public class ParameterizedTest {
 
     @Test
     public void shouldAddTwoInteger() {
-        Assert.assertEquals(sum, calculator.add(a, b));
+        Assert.assertEquals(sum, dumbCalculator.add(a, b));
     }
 }

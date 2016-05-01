@@ -4,18 +4,18 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Unit test for {@link Calculator}.
+ * Unit test for {@link DumbCalculator}.
  *
  * @author Jozsef_Koza
  * @author Gabor_Nemeth1
  */
 public class BasicJunitTest {
 
-    private Calculator calculator = new Calculator();
+    private DumbCalculator dumbCalculator = new DumbCalculator();
 
     @Test
     public void shouldAddTwoNumber() throws Exception {
-        int result = calculator.add(4, 1);
+        int result = dumbCalculator.add(4, 1);
         Assert.assertEquals(5, result);
     }
 }

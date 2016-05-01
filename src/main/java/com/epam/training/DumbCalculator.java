@@ -5,7 +5,7 @@ package com.epam.training;
  *
  * @author Jozsef_Koza
  */
-public class Calculator {
+public final class DumbCalculator {
 
     /**
      * Adds two numbers.

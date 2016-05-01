@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  *
  * @author Jozsef_Koza
  */
-public class Sleeper {
+public final class Sleeper {
     private static final Logger LOG = LoggerFactory.getLogger(Sleeper.class);
 
     /**

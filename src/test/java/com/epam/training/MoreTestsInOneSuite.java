@@ -1,7 +1,6 @@
 package com.epam.training;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -12,16 +11,16 @@ import org.junit.Test;
  */
 public class MoreTestsInOneSuite {
 
-    private Calculator calculator = new Calculator();
+    private DumbCalculator dumbCalculator = new DumbCalculator();
 
     @Test(expected = ArithmeticException.class)
     public void shouldThrowExceptionWhenDivisorIsZero() throws Exception {
-        calculator.divide(3, 0);
+        dumbCalculator.divide(3, 0);
     }
 
     @Test
     public void shouldQuotientBeEqualToDividendIfDivisorIsOne() throws Exception {
-        double result = calculator.divide(4, 1);
+        double result = dumbCalculator.divide(4, 1);
         Assert.assertEquals(result, 4, 0.0);
     }
 }

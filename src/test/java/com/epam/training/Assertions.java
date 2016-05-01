@@ -13,17 +13,17 @@ import java.util.concurrent.TimeUnit;
  */
 public class Assertions {
 
-    private Calculator calculator = new Calculator();
+    private DumbCalculator dumbCalculator = new DumbCalculator();
     private Sleeper sleeper = new Sleeper();
 
     @Test
     public void shouldResultBeGreaterThanZero() throws Exception {
-        Assert.assertTrue(calculator.add(0, 1) > 0);
+        Assert.assertTrue(dumbCalculator.add(0, 1) > 0);
     }
 
     @Test
     public void shouldResultBeNotLessOrEqualsThanZero() throws Exception {
-        Assert.assertFalse(calculator.add(0, 1) <= 0);
+        Assert.assertFalse(dumbCalculator.add(0, 1) <= 0);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class Assertions {
 
     @Test(expected = ArithmeticException.class)
     public void shouldExpectException() throws Exception {
-        calculator.divide(3, 0);
+        dumbCalculator.divide(3, 0);
     }
 
     @Test(timeout = 3000, expected = IllegalStateException.class)

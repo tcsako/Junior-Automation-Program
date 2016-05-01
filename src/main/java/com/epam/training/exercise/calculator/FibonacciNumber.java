@@ -1,4 +1,4 @@
-package com.epam.training.exercise;
+package com.epam.training.exercise.calculator;
 
 /**
  * A pair representing a Fibonacci-number with the previous number in the sequence.
@@ -19,7 +19,7 @@ final class FibonacciNumber {
      *
      * @return the value
      */
-    public int get() {
+    int get() {
         return value;
     }
 
@@ -28,7 +28,7 @@ final class FibonacciNumber {
      *
      * @return the next value
      */
-    public int computeNext() {
+    int computeNext() {
         return previous + value;
     }
 }
