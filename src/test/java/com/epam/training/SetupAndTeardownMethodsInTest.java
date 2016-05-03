@@ -20,14 +20,11 @@ public class SetupAndTeardownMethodsInTest {
     @BeforeClass
     public static void setUpClass() {
         LOG.info("Called setUpClass");
-        //TODO e.g. start selenium server
-
     }
 
     @AfterClass
     public static void tearDownClass() {
         LOG.info("Called tearDownClass");
-        // TODO kill selenium server
     }
 
     @Before
