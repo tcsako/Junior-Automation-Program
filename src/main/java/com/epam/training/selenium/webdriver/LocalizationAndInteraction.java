@@ -2,9 +2,7 @@ package com.epam.training.selenium.webdriver;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class LocalizationAndInteraction {
@@ -16,7 +14,5 @@ public class LocalizationAndInteraction {
 		driver.manage().window().maximize();
 
 		driver.get("http://www.istqb.org");
-		
-		WebElement byId = driver.findElement(By.id(""));
 	}
 }

@@ -41,7 +41,10 @@ public final class Wrapper<T> {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        Wrapper wrapper = (Wrapper) o;
+        Wrapper<?> wrapper = (Wrapper<?>) o;
+        if (value.getClass() != wrapper.value.getClass()) {
+            return false;
+        }
         return Objects.equals(value, wrapper.value);
     }
 

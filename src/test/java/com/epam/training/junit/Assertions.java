@@ -32,15 +32,15 @@ public class Assertions {
 
     @Test
     public void shouldObjectsBeEqualButNotSame() throws Exception {
-        Wrapper first = Wrapper.of("something");
-        Wrapper second = Wrapper.of("something");
+        Wrapper<String> first = Wrapper.of("something");
+        Wrapper<String> second = Wrapper.of("something");
         Assert.assertEquals(first, second);
         Assert.assertSame(first, second);
     }
 
     @Test
     public void assertNull() throws Exception {
-        Wrapper myObject = null;
+        Wrapper<Object> myObject = null;
         Assert.assertNull(myObject);
     }
 
