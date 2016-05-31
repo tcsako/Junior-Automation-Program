@@ -1,5 +1,10 @@
 package com.epam.training.basics;
 
+/**
+ * This class contains examples regarding annotations.
+ *
+ * @author Zsolt_Horvath1
+ */
 public class Annotations {
 
     /**

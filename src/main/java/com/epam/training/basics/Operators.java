@@ -1,5 +1,10 @@
 package com.epam.training.basics;
 
+/**
+ * Class to show how operators work in Java.
+ * 
+ * @author Zsolt_Horvath1
+ */
 public class Operators {
 
     public static void main(String[] args) {

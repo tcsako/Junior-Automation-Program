@@ -1,5 +1,10 @@
 package com.epam.training.basics;
 
+/**
+ * Class to show different Java primitives and their default value.
+ * 
+ * @author Zsolt_Horvath1
+ */
 public class Primitives {
 
     private static char c;

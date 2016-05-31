@@ -1,5 +1,10 @@
 package com.epam.training.basics;
 
+/**
+ * Example class to see how arrays work.
+ *
+ * @author Zsolt_Horvath1
+ */
 public class Arrays {
 
     public static void main(String[] args) {

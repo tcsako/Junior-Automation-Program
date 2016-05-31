@@ -1,5 +1,10 @@
 package com.epam.training.basics;
 
+/**
+ * String related examples.
+ * 
+ * @author Zsolt_Horvath1
+ */
 public class Strings {
 
     public static void main(String[] args) {

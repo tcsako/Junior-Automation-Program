@@ -7,6 +7,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * This class shows how collections work.
+ * 
+ * @author Zsolt_Horvath1
+ */
 public class Collections {
 
     public static void main(String[] args) {
@@ -44,7 +49,6 @@ public class Collections {
         for (String s : map.keySet()) {
             System.out.println(s + ": " + map.get(s));
         }
-
     }
 
 }

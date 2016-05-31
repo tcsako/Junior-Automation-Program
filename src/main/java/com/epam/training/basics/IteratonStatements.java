@@ -1,5 +1,10 @@
 package com.epam.training.basics;
 
+/**
+ * This class contains examples regarding 'for' and 'while' loops.
+ * 
+ * @author Zsolt_Horvath1
+ */
 public class IteratonStatements {
 
     public static void main(String[] args) {

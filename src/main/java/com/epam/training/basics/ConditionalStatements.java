@@ -1,5 +1,10 @@
 package com.epam.training.basics;
 
+/**
+ * Examples regarding conditional statements.
+ * 
+ * @author Zsolt_Horvath1
+ */
 public class ConditionalStatements {
 
     public static void main(String[] args) {

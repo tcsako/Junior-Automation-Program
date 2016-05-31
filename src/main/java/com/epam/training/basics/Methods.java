@@ -1,5 +1,10 @@
 package com.epam.training.basics;
 
+/**
+ * This class contains Java methods related example(s).
+ *
+ * @author Zsolt_Horvath1
+ */
 public class Methods {
 
     public static void main(String[] args) {

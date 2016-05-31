@@ -1,5 +1,10 @@
 package com.epam.training.basics.constructor;
 
+/**
+ * Class to represent constructor and how it works.
+ * 
+ * @author Zsolt_Horvath1
+ */
 public class Person {
 
     private String firstName;
