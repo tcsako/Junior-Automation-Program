@@ -11,10 +11,10 @@
   - Select _'Windows x86'_ or _'Windows x64'_ (depends on your PC)
 
 2. Set JAVA_HOME environment variable
-  - Right click on Computer and select Properties
-  - Click on Advanced system settings (left menu panel)
-  - Click on Environment Variables button
-  - Click on New button (System variables section)
+  - Right click on _Computer_ and select _Properties_
+  - Click on _Advanced system settings_ (left menu panel)
+  - Click on _Environment Variables_ button
+  - Click on _New button_ (System variables section)
     - Variable name: JAVA_HOME
     - Variable value: location of the installed JDK, e.g. C:\Program Files\Java\jdk1.8.0_91
   - Extend _Path_ system variable with ;%JAVA_HOME%\bin
@@ -48,7 +48,7 @@
 - Create Eclipse workspace:
   - Create _'D:\EPAM\workspace\eclipse'_ folder structure (or _'C:\EPAM\workspace\eclipse'_ if you have no D:\ partition)
 - Start Eclipse (double click on _eclipse.exe_ under _D:\EPAM\eclipse_)
-- In the _Workspace Launcer_ window click on the _Browse..._ button and select the previously created _'D:\EPAM\workspace\eclipse'_ folder (be careful, __do not use D:\EPAM\eclipse as workspace folder!__)
+- In the _Workspace Launcer_ window, click on the _Browse..._ button and select the previously created _'D:\EPAM\workspace\eclipse'_ folder (be careful, __do not use D:\EPAM\eclipse as workspace folder!__)
 - Click on the _OK_ button
 - Close the _Welcome_ window
 - Select _File -> Import... -> Maven -> Existing Maven Projects_
@@ -57,3 +57,10 @@
 - Click on the _OK_ button
 - Make sure that _/pom.xml_ is checked
 - Click on the _Finish_ button (this could take awhile, you can see the progress in the bottom right corner)
+- Click on _Window -> Preferences -> General -> Keys_
+  - Type _'Skip All Breakpoints'_ to _'type filter text_' input field
+  - Select _'Skip All Breakpoints'_ command
+  - Click on the _Unbind Command_ button
+  - Click on the _OK_ button
+- Optional: To make package hierarchy easier to read, click on the dropdown menu on the _Package Explorer_ view, go to the _Package Representation_ submenu and then click on _Hierarchical_.
+![Package Presentation](https://wiki.eclipse.org/images/8/84/Package_Representation_01.jpg)
