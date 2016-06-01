@@ -1,10 +1,10 @@
 package com.epam.training.junit.exercise.calculator;
 
+import java.util.stream.Collectors;
+
 import com.epam.training.junit.exercise.AdvancedCalculator;
 import com.epam.training.junit.exercise.calculator.framing.Frame;
 import com.google.common.collect.Lists;
-
-import java.util.stream.Collectors;
 
 /**
  * An {@link AdvancedCalculator} that returns results viewable through a customizable frame.
@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  */
 public class FramingCalculator implements AdvancedCalculator {
     private AdvancedCalculator calculator = new DefaultAdvancedCalculator();
-    private Frame frame;
+    private Frame frame = Frame.of(Double.MIN_VALUE, Double.MAX_VALUE);
 
     @Override
     public double sum(double... numbers) {

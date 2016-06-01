@@ -10,10 +10,10 @@ import java.util.Collections;
 public interface AdvancedCalculator {
 
     /**
-     * Returns the sum of argument numbers.
+     * Returns the sum of the argument numbers.
      *
      * @param numbers the numbers
-     * @return the sum of the argument numbers
+     * @return the sum of the argument numbers or 0 if no arguments were passed
      */
     double sum(double... numbers);
 
@@ -22,16 +22,18 @@ public interface AdvancedCalculator {
      *
      * @param n the length of the sequence
      * @return the Fibonacci-sequence
+     * @throws IllegalArgumentException if the argument is negative
      */
     default Iterable<Integer> fibonacci(int n) {
         return Collections.emptyList();
     }
 
     /**
-     * Returns the sum of first {@code n} number of Natural numbers.
+     * Returns the sum of teh first {@code n} number of Natural numbers.
      *
      * @param n the number to sum
-     * @return the sum of Natural numbers
+     * @return the sum of the Natural numbers
+     * @throws IllegalArgumentException if the argument is negative
      */
     int sumOfNaturals(int n);
 
