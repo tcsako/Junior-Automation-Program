@@ -64,3 +64,14 @@
   - Click on the _OK_ button
 - Optional: To make package hierarchy easier to read, click on the dropdown menu on the _Package Explorer_ view, go to the _Package Representation_ submenu and then click on _Hierarchical_.
 ![Package Presentation](https://wiki.eclipse.org/images/8/84/Package_Representation_01.jpg)
+
+---
+
+## WebDriver notes
+- For the WebDriver tests to run, you need to have Firefox 46.x.x installed. 
+- At the moment the FirefoxDriver only supports this verion of Firefox, though the latest one is 47 (this comes pre-installed)
+- Download FF 46.x.x using this link: https://ftp.mozilla.org/pub/firefox/releases/46.0.1/win64/hu/
+- You should also disable the automatic updates in Firefox during the training period, since it's going to update FF to the latest version
+  - In Firefox: Options -> Special -> Updates -> Select "Search for updates, but..." (second option)
+
+---
