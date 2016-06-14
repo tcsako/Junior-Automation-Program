@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -43,7 +42,6 @@ public class LocalizationAndInteraction {
 		driver.close();
 	}
 
-	@Test
 	public static void interactLoginFieldById() {
 
 		// Locate by ID
@@ -57,7 +55,6 @@ public class LocalizationAndInteraction {
 		}
 	}
 
-	@Test
 	public static void interactPasswordFieldInfoByClass() {
 
 		// Locate by ClassName
@@ -67,7 +64,6 @@ public class LocalizationAndInteraction {
 		System.out.println("Password info: " + passwordInfo.getText());
 	}
 
-	@Test
 	public static void interactPasswordFieldByName() {
 
 		// Locate by ID
@@ -79,7 +75,6 @@ public class LocalizationAndInteraction {
 		}
 	}
 
-	@Test
 	public static void getAllElementsBasedOnType() {
 
 		// Locate by custom argument
@@ -95,7 +90,6 @@ public class LocalizationAndInteraction {
 		}
 	}
 	
-	@Test
 	public static void selectFromDropDown() {
 		
 		WebElement dropDown = driver.findElement(By.cssSelector("select#user_language"));
