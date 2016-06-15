@@ -46,7 +46,7 @@ public class RCDemo {
 		// verify if the result is 5
 		String result = selenium.getText(".//*[@id='content']/p[2]");
 
-		if (result == "5") {
+		if ("5".equals(result)) {
 			System.out.println("Pass");
 		} else {
 			System.out.println("Fail");
