@@ -75,3 +75,33 @@
   - In Firefox: Options -> Special -> Updates -> Select "Search for updates, but..." (second option)
 
 ---
+## Useful links
+
+Java Foundamentals & OOP Basics
+
+https://www.udemy.com/java-tutorial/
+https://blog.udemy.com/oops-concepts-with-examples/
+https://www.ntu.edu.sg/home/ehchua/programming/java/J3a_OOPBasics.html
+http://www.sololearn.com/Course/Java/
+https://www.codingame.com/
+http://www.mkyong.com/java/
+http://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep
+
+Selenium WebDriver
+
+http://www.seleniumhq.org/docs/
+https://web.archive.org/web/20160117144723/https://code.google.com/p/selenium/wiki/PageObjects
+https://web.archive.org/web/20160121000931/http://code.google.com/p/selenium/wiki/PageFactory
+http://www.seleniumeasy.com/selenium-webdriver-tutorials
+
+JUnit &TestNG
+
+http://www.tutorialspoint.com/testng/
+http://www.tutorialspoint.com/junit/
+https://www.pluralsight.com/courses/java-testing-introduction
+http://pluralsight.com/training/Courses/TableOfContents/java-unit-testing-junit
+http://pluralsight.com/training/Courses/TableOfContents/test-driven-development-java
+
+Java Regular Expression
+
+http://www.tutorialspoint.com/java/java_regular_expressions.htm
